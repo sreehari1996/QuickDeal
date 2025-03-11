@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Inter 18pt";
+  src: url("../fonts/inter/Inter18pt-Regular.woff2") format("woff2"), url("../fonts/inter/Inter18pt-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/publicSans/PublicSans-Regular.woff2") format("woff2"), url("../fonts/publicSans/PublicSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Public Sans" !important;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+header .topbar {
+  background-color: #FCA033;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
