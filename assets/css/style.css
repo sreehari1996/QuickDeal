@@ -12,6 +12,16 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/jost/Jost-Black.woff2") format("woff2"), url("../fonts/jost/Jost-Black.woff") format("woff");
+  font-style: normal;
+  font-display: swap;
+}
+.text-small {
+  font-size: 13px !important;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -26,6 +36,132 @@ body {
 header .topbar {
   background-color: #FCA033;
   padding: 10px;
+}
+header .dropdown-menu[data-bs-popper] {
+  right: 0 !important;
+  left: auto;
+}
+header .navbar .logo .navbar-brand > img {
+  width: 130px;
+}
+header .navbar .navbar-nav .nav-item .nav-link.active {
+  color: #0495FE;
+  font-weight: 600;
+}
+
+main .main-section .Headings {
+  padding: 60px;
+  margin: 0 auto;
+  padding-bottom: 17px;
+  text-align: center;
+}
+main .main-section .Headings > h1 {
+  color: grey;
+  font-family: "Jost";
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 1px;
+}
+main .main-section .Headings > h1 .first {
+  color: #FCA033;
+}
+main .main-section .Headings > h1 .second {
+  color: #0495FE;
+}
+main .main-section .Headings .icon {
+  color: #0495FE;
+  font-size: 25px;
+}
+main .main-section .search-card {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+main .main-section .search-card .form-control {
+  border-radius: 20px;
+  height: 44px;
+  padding: 0px 67px;
+  font-size: 14px;
+  color: #ddd;
+  border-color: #0495FE;
+}
+main .main-section .search-card .form-control:focus-visible {
+  outline: 0;
+}
+main .main-section .search-card .buy {
+  position: absolute;
+  top: 13px;
+  left: 20px;
+  border-right: 2px solid #ddd;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+}
+main .main-section .search-card .buy > span {
+  color: grey;
+  font-size: 12px;
+}
+main .main-section .search-card .Search {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  border-left: 1px solid #ddd;
+  padding-left: 20px;
+}
+main .main-section .search-card .Search > span {
+  color: grey;
+}
+main .main-section .slider-status {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 60px;
+  position: relative;
+}
+main .main-section .slider-status .slider-child .owl-carousel .owl-stage-outer .owl-stage .owl-item {
+  margin: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 4px dashed #3498db;
+  border-radius: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 100px !important;
+  height: 100px;
+}
+main .main-section .slider-status .slider-child .owl-carousel .owl-stage-outer .owl-stage .owl-item .img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+main .main-section .slider-status .slider-child .owl-carousel .owl-stage-outer .owl-stage .owl-item .img > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 6px;
+}
+main .main-section .slider-status .slider-child .owl-carousel .owl-stage-outer .owl-stage .owl-item .slider-file {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+main .main-section .slider-status .slider-child .owl-carousel .owl-stage-outer .owl-stage .owl-item .slider-file label {
+  font-weight: bold;
+  color: gray;
+  cursor: pointer;
+}
+main .main-section .slider-status .slider-child .owl-carousel .owl-stage-outer .owl-stage .owl-item .slider-file input[type=file] {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

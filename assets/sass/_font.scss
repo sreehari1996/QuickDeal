@@ -14,4 +14,10 @@
     font-style: normal;
     font-display: swap;
 }
-
+@font-face {
+    font-family: 'Jost';
+    src: url('../fonts/jost/Jost-Black.woff2') format('woff2'),
+        url('../fonts/jost/Jost-Black.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}
