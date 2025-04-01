@@ -35,5 +35,4 @@ $(document).ready(function(){
         }
     });
     $('.owl-custom .owl-nav').removeClass('disabled').show();
-
 })
