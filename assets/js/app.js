@@ -4,7 +4,7 @@ $(document).ready(function(){
         $(this).addClass('active');
     })
     
-    $('.owl-carousel').owlCarousel({
+    $('.status-slider').owlCarousel({
         loop:false,
         margin:0,
         responsiveClass:true,
@@ -24,4 +24,16 @@ $(document).ready(function(){
             }
         }
     })
+    $('.owl-custom').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+            0: { items: 1 },
+            600: { items: 3 },
+            1000: { items: 5 }
+        }
+    });
+    $('.owl-custom .owl-nav').removeClass('disabled').show();
+
 })

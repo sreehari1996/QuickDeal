@@ -116,6 +116,7 @@ main{
                     .owl-stage-outer{
                         .owl-stage{
                             .owl-item{   
+                                margin:15px;
                                 .img{
                                     width: 100px;
                                     height: 100px;
@@ -165,6 +166,173 @@ main{
                     
                 }
             }              
+        }
+    }
+    .slider-contents{
+        padding:0px 35px;
+        &>h2{
+            font-family:var.$secondary-font;
+            font-size:35px;
+            position: relative;
+            font-weight:bold;
+            &:after{
+                border: 4px solid #ddd;
+                border-radius: 8px;
+                content: "";
+                width: 100px;
+                position: absolute;
+                top: 57px;
+                height: 0px;
+                left: 0;
+            }
+        }
+        .slider-props{
+            margin-top:36px;
+            position: relative;
+            .owl-custom{
+                position: relative;
+                margin-top:60px;
+                .owl-nav{
+                    display: inline-flex !important;
+                    position: absolute;
+                    right:20px;
+                    top:-36px;
+                    .owl-next{
+                        width:30px;
+                        position: relative;
+                        height:30px;
+                        color:#fff;
+                        background-color:var.$primary-color;
+                        border-radius:50%;
+                        margin-right:0px;
+                        &>span{
+                            display:none;
+                        }
+                        &::after{
+                            content: '\f105';
+                            font-family: 'Font Awesome 5 Free';
+                            font-weight: 900; 
+                        }       
+                    }
+                    .owl-prev{
+                        width:30px;
+                        position: relative;
+                        height:30px;
+                        color:#fff;
+                        background-color:var.$primary-color;
+                        border-radius:50%;
+                        margin-right:4px;
+                        &>span{
+                            display:none;
+                        }
+                        &::after{
+                            content: '\f104';
+                            font-family: 'Font Awesome 5 Free';
+                            font-weight: 900; 
+                        }
+                    }
+                }
+            }
+            .slider-components{
+                .slideritems{
+                    &>img{
+                        border-radius:8px;
+                    }
+                }
+            }
+        }
+        .slider-components{
+            position: relative;
+            border: 1px solid #ddd;
+            padding:15px;
+            margin:5px;
+            border-radius: 6px;
+            .slideritems{
+                .card-contents{
+                    display:flex;
+                    align-items:center;
+                    justify-content:space-between;
+                    padding:15px;
+                    position: absolute;
+                    top: 0;
+                    width: 100%;
+                    .green-success{
+                        font-size: 10px;
+                        border-radius: 16px;
+                        background-color: rgba(126, 198, 126, 0.7882352941);
+                        padding:3px;
+                        width: 60px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    .notify{
+                        font-size: 10px;
+                        border-radius: 16px; 
+                        padding: 5px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        &>p{
+                            margin: 2px;
+                            border-radius: 16px;
+                            padding: 3px;
+                            background-color: #664d033b;
+                            width:60px;
+                            display:flex;
+                            align-items:center;
+                            justify-content:center;
+                            color: #fff;
+                        }
+                    }
+                }
+                .profiles{
+                    display:flex;
+                    align-items:center;
+                    justify-content:space-between;
+                    position:absolute;
+                    bottom:0;
+                    width:100%;
+                    padding:10px;
+                    .icon{
+                        &>i{
+                            color:var.$primary-color;
+                        }
+                    }
+                    .images{
+                        width:30px;
+                        height:30px;
+                        border-radius:50%;
+                       
+                        &>img{
+                            width:100%;
+                            height:100%;
+                            border-radius:50%;
+                        }
+                    }
+                }
+            }
+            .slider-details{
+                margin-top:15px;
+                &>h4{
+                    font-size:14px;
+                    font-weight:600;
+                    color:var.$color-black;
+                }
+                &>span{
+                    color:var.$color-grey;
+                    font-size:14px;
+                }
+                &>p{
+                    color:var.$color-grey;
+                    font-size:14px;
+                }
+                .price{
+                    &>h5{
+                        color:var.$primary-color;
+                    }
+                }
+            }
         }
     }
 }
