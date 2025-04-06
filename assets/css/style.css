@@ -188,7 +188,7 @@ main .slider-contents > h2:after {
   left: 0;
 }
 main .slider-contents .slider-props {
-  margin-top: 36px;
+  margin-top: 10px;
   position: relative;
 }
 main .slider-contents .slider-props .owl-custom {
@@ -324,6 +324,77 @@ main .slider-contents .slider-components .slider-details > p {
 main .slider-contents .slider-components .slider-details .price > h5 {
   color: #FCA033;
 }
+main .slider-contents.video-contents .slider-components {
+  border: 0;
+}
+main .slider-contents.video-contents .slider-components .slideritems .card-contents {
+  height: 100%;
+}
+main .slider-contents.video-contents .slider-components .slideritems .card-contents .contents {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+main .slider-contents.video-contents .slider-components .slideritems .card-contents .contents .green-success {
+  background-color: transparent;
+  cursor: pointer;
+}
+main .slider-contents.video-contents .slider-components .slideritems .card-contents .contents .green-success > i {
+  font-size: 30px;
+  color: #FC3333;
+}
+main .slider-contents.GetINTOUCh {
+  padding-bottom: 50px;
+}
+main .slider-contents.GetINTOUCh .GetIn-status {
+  background-color: rgba(214, 195, 195, 0.1882352941);
+  padding: 60px;
+  margin-top: 12px;
+}
+main .slider-contents.GetINTOUCh .GetIn-status > p {
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+main .slider-contents.GetINTOUCh .GetIn-status > h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+main .slider-contents.GetINTOUCh .GetIn-status .supportTeam {
+  margin-top: 5px;
+}
+main .slider-contents.GetINTOUCh .GetIn-status .supportTeam > span {
+  font-size: 13px;
+}
+main .slider-contents.GetINTOUCh .GetIn-status .supportTeam .service .option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .slider-contents.GetINTOUCh .GetIn-status .supportTeam .service {
+  margin-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+main .slider-contents.GetINTOUCh .GetIn-status .supportTeam .service .options {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+main .slider-contents.GetINTOUCh .GetIn-status .supportTeam .service .options .icon > span {
+  font-size: 20px;
+}
+main .slider-contents.GetINTOUCh .GetIn-status .supportTeam .service .options .details {
+  margin-left: 20px;
+  font-size: 14px;
+}
+main .slider-contents.GetINTOUCh .GetIn-status .supportTeam .service .options .details > p {
+  margin-bottom: 0;
+}
+main .slider-contents.GetINTOUCh .iframes {
+  margin-top: 12px;
+}
 main .theme-section.checkAreas {
   padding: 0px 35px;
 }
@@ -373,6 +444,76 @@ main .theme-section.checkAreas .gallery .card-2 .gridcard > img {
   border-radius: 12px;
   width: 100%;
   height: 100%;
+}
+main .sellbanner {
+  background-image: url("../Images/home-banner-2.jpg");
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  object-fit: cover;
+  padding: 100px;
+  position: relative;
+}
+main .sellbanner:after {
+  background-color: #000000;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.4;
+}
+main .sellbanner .sell-options h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  z-index: 1;
+  position: relative;
+}
+main .sellbanner .sell-options p {
+  margin-top: 15px;
+  color: #fff;
+  font-weight: 600;
+  max-width: 600px;
+  z-index: 1;
+  position: relative;
+}
+main .sellbanner .valueoffIt .btn-border {
+  border: 1px solid #fff;
+  border-radius: 8px;
+  max-width: 200px;
+  color: #fff;
+  z-index: 1;
+  padding: 12px;
+  cursor: pointer;
+  position: relative;
+}
+
+footer {
+  background-color: #222222;
+  padding: 20px;
+}
+footer .social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .social-media > span {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 9px;
+}
+footer .bottom-footer {
+  padding: 15px 0px;
+  border-top: 1px solid rgba(214, 195, 195, 0.1882352941);
+}
+footer .bottom-footer > h2 {
+  color: rgba(214, 195, 195, 0.1882352941);
+  text-align: center;
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

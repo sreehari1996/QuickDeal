@@ -187,7 +187,7 @@ main{
             }
         }
         .slider-props{
-            margin-top:36px;
+            margin-top:10px;
             position: relative;
             .owl-custom{
                 position: relative;
@@ -334,7 +334,88 @@ main{
                 }
             }
         }
+        &.video-contents{
+            .slider-components{
+                border:0;
+                .slideritems{
+                    .card-contents{
+                        height:100%;
+                        .contents{
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 100%;
+                            .green-success{
+                                background-color:transparent;
+                                cursor:pointer;
+                                &>i{
+                                    font-size:30px;
+                                    color:var.$color-red;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.GetINTOUCh{
+            padding-bottom:50px;
+            .GetIn-status{
+                background-color:var.$color-light;
+                padding:60px;
+                margin-top:12px;
+                &>p{
+                    margin-bottom:0px;
+                    font-size:20px;
+                }
+                &>h3{
+                    font-size:20px;
+                    font-weight:600;
+                }
+                .supportTeam{
+                    margin-top:5px;
+                    &>span{
+                        font-size:13px;
+                    }
+                    .service{
+                        .option{
+                            display:flex;
+                            align-items:center;
+                            justify-content:space-between;
+                        }
+                    }
+                    .service{
+                        margin-top:30px;
+                        padding-left:30px;
+                        padding-right:30px;
+                        .options{
+                            display:flex;
+                            align-items:center;
+                            margin-bottom:20px;
+                            .icon{
+                                &>span{
+                                    font-size:20px;
+                                   
+                                }
+                            }
+                            .details{
+                                margin-left:20px;
+                                font-size:14px;
+                                &>p{
+                                    margin-bottom:0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .iframes{
+                margin-top:12px;
+            }
+        }
     }
+  
     .theme-section{
         &.checkAreas{
             padding:0px 35px;
@@ -387,5 +468,81 @@ main{
             }
         }
 
+    }
+    .sellbanner{
+        background-image:url('../Images/home-banner-2.jpg');
+        width:100%;
+        height:400px;
+        background-position:center;
+        object-fit:cover;
+        padding:100px;
+        position: relative;
+        &:after{
+            background-color: #000000;
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 100%;
+            top: 0;
+            right: 0;
+            left: 0;
+            opacity: 0.4;
+            // filter: blur(390px);
+        }
+        .sell-options{
+            h2{
+                color:var.$color-white;
+                font-size:30px;
+                font-weight:600;
+                z-index:1;
+                position: relative;
+            }
+            p{
+                margin-top:15px;
+                color:var.$color-white;
+                font-weight:600;
+                max-width:600px;
+                z-index:1;
+                position: relative;
+            }
+        }
+        .valueoffIt{
+            .btn-border{
+                border:1px solid #fff;
+                border-radius:8px;
+                max-width:200px;
+                color:#fff;
+                z-index:1;
+                padding:12px;
+                cursor: pointer;
+                position: relative;
+            }
+            
+        }
+    }
+}
+
+footer{
+    background-color:#222222;
+    padding:20px;
+    .social-media{
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        &>span{
+            color:var.$color-white;
+            font-size:20px;
+            cursor: pointer;
+            margin:9px;
+        }
+    }
+    .bottom-footer{
+        padding:15px 0px;
+        border-top:1px solid var.$color-light;
+        &>h2{
+            color:var.$color-light;
+            text-align:center;
+            font-size:15px;
+        }
     }
 }
